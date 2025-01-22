@@ -10,4 +10,4 @@ Disini kita belajar :
 - Membuat daftar
 - Membuat link
 
-Preview : [Website Resep Makanan](valindio.github.io/project-resep-makanan)
+Preview : [Website Resep Makanan](https://valindio.github.io/project-resep-makanan)
