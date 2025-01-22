@@ -11,4 +11,6 @@ Disini kita belajar :
 - Membuat link
 - Menambahkan gaya pada halaman css
 
+![Resep Makanan Website](Images/screenshot.png)
+
 Preview : [Website Resep Makanan](https://valindio.github.io/project-resep-makanan)
