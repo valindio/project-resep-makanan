@@ -9,3 +9,5 @@ Disini kita belajar :
 - Membuat paragraph
 - Membuat daftar
 - Membuat link
+
+Preview : [Website Resep Makanan](valindio.github.io/project-resep-makanan)
