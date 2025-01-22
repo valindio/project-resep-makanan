@@ -4,19 +4,72 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project - Resep Makanan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Resep Makanan</h1>
-    <ul>
-      <li>
-        <a href="resep/baked-ziti.html">Resep Baked Ziti</a>
-      </li>
-      <li>
-        <a href="resep/mamaw-chicken-rice.html">Resep Rasi Goreng Mamaw</a>
-      </li>
-      <li>
-        <a href="resep/baso-daging.html">Resep Baso Daging Pedas</a>
-      </li>
-    </ul>
+    <main>
+      <h1 class="title">Resep Makanan</h1>
+      <section class="container">
+        <div class="card-container">
+          <div class="card-item">
+            <div>
+              <img src="Images/baked-ziti.webp" alt="" />
+            </div>
+            <h2>Baked Ziti</h2>
+            <p>
+              Ziti panggang ini selalu menjadi favorit! Seorang wanita yang
+              bekerja dengan saya membawakan ini suatu hari, dan semua orang
+              menyukainya.
+            </p>
+            <div>
+              <a class="card-btn" href="resep/baked-ziti.html">Resep</a>
+            </div>
+          </div>
+          <div class="card-item">
+            <div>
+              <img src="Images/baso-daging.webp" alt="" />
+            </div>
+            <h2>Bakso Daging Pedas</h2>
+            <p>
+              Bom slider bakso ini, seperti sandwich bakso Italia seukuran
+              gigitan, cepat disiapkan dengan bakso beku dan adonan pizza
+              dingin.
+            </p>
+            <div>
+              <a class="card-btn" href="resep/baso-daging.html">Resep</a>
+            </div>
+          </div>
+          <div class="card-item">
+            <div>
+              <img src="Images/mamaw-chicken-rice.webp" alt="" />
+            </div>
+            <h2>Nasi Goreng Mamaw</h2>
+            <p>
+              Saya tumbuh besar dengan resep casserole ayam dan nasi ini. Nenek
+              saya mendapatkannya dari seorang wanita dari gereja di acara makan
+              bersama dahulu kala! Dia mewariskannya kepada ibu saya dan ini
+              selalu menjadi favorit keluarga.
+            </p>
+            <div>
+              <a class="card-btn" href="resep/mamaw-chicken-rice.html">Resep</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div>
+          <p>
+            Made with ♥ by
+            <a href="https://github.com/valindio">Valindio Rinandi</a>
+          </p>
+        </div>
+      </footer>
+    </main>
   </body>
 </html>

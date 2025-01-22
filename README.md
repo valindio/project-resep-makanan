@@ -9,5 +9,6 @@ Disini kita belajar :
 - Membuat paragraph
 - Membuat daftar
 - Membuat link
+- Menambahkan gaya pada halaman css
 
 Preview : [Website Resep Makanan](https://valindio.github.io/project-resep-makanan)

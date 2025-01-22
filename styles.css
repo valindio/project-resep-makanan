@@ -1,0 +1,129 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+:root {
+  --primary-color: #6e267e;
+  --secondary-color: #007c77;
+  --white-color: #ffffff;
+  --black-color: #0f0f0f;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: var(--white-color);
+  color: var(--white-color);
+}
+
+img {
+  display: block;
+  max-inline-size: 100%;
+  block-size: auto;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white-color);
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+/* ============================================ */
+
+main {
+  display: flex;
+  flex-direction: column;
+  block-size: 100dvh;
+  justify-content: space-between;
+}
+
+.title {
+  padding: 0.5rem;
+  text-align: center;
+  background-color: var(--primary-color);
+}
+
+.container {
+  max-inline-size: 1024px;
+  margin-inline: auto;
+  padding: 1rem;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: auto auto auto auto;
+  gap: 1rem;
+  text-align: center;
+}
+
+.card-item {
+  display: grid;
+  grid-template-rows: subgrid;
+  grid-row: span 4;
+  gap: 1rem;
+  padding: 1.2rem;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 5px 0 rgb(0, 0, 0, 0.5);
+  background-color: var(--primary-color);
+}
+
+.card-item img {
+  border-radius: 1rem;
+}
+
+.card-btn {
+  padding: 0.3rem 1.5rem;
+  background-color: var(--secondary-color);
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  transition: all ease 1s;
+}
+
+.card-btn:hover {
+  opacity: 0.9;
+}
+
+footer {
+  padding: 1rem;
+  text-align: center;
+  font-weight: 600;
+  background-color: var(--primary-color);
+
+  a {
+    color: skyblue;
+  }
+}
+
+/* ============================================ */
+
+.resep-container {
+  display: flex;
+  flex-direction: column;
+  max-inline-size: 65ch;
+  padding: 1.5rem;
+  gap: 1rem;
+  background-color: var(--primary-color);
+}
+
+.resep-images {
+  align-self: center;
+}
+
+.resep-link {
+  text-align: center;
+}
